@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Recipe__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "coctail-demo-Recipe__cs.json"
+        ]
+    },
+    {
+        "sobject": "Recipe_amount__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "coctail-demo-Recipe_amount__cs.json"
+        ]
+    }
+]

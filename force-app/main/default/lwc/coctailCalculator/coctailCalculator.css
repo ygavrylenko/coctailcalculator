@@ -1,0 +1,9 @@
+img.product {
+    max-width: 40px;
+    pointer-events: none;
+}
+
+ccol {
+    padding-right: 0rem !important;
+    padding-left: 0rem  !important;
+}

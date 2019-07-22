@@ -1,0 +1,18 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "CoctailCalculator",
+            "versionName": "First version",
+            "versionNumber": "1.0.0.NEXT"
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "46.0",
+    "packageAliases": {
+        "CoctailCalculator": "0Ho1t000000TNKRCA4",
+        "CoctailCalculator@1.0.0-1": "04t1t0000030zXOAAY"
+    }
+}

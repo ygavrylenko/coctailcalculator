@@ -1,0 +1,163 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef1"
+            },
+            "External_ingridient__c": "Lemon",
+            "Ingridient_amount__c": 0.5,
+            "Name": "Lemon twist",
+            "Unit_of_measurement__c": "Pieces",
+            "Recipe__c": "@Recipe__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef2"
+            },
+            "Ingridient_amount__c": 15,
+            "Name": "15 cl Martini & Rossi Dry Vermouth",
+            "Unit_of_measurement__c": "Centiliter",
+            "Recipe__c": "@Recipe__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef3"
+            },
+            "Ingridient_amount__c": 40,
+            "Name": "40 cl Bombay Sapphire Gin",
+            "Unit_of_measurement__c": "Centiliter",
+            "Recipe__c": "@Recipe__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef4"
+            },
+            "Ingridient_amount__c": 5,
+            "Name": "5 cl BACARDÍ Carta Blanca",
+            "Unit_of_measurement__c": "Centiliter",
+            "Recipe__c": "@Recipe__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef5"
+            },
+            "External_ingridient__c": "Mint leaves",
+            "Ingridient_amount__c": 10,
+            "Name": "10 big mint leaves",
+            "Unit_of_measurement__c": "Pieces",
+            "Recipe__c": "@Recipe__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef6"
+            },
+            "External_ingridient__c": "Fresh lime juice",
+            "Ingridient_amount__c": 15,
+            "Name": "15 cl fresh lime juice",
+            "Unit_of_measurement__c": "Centiliter",
+            "Recipe__c": "@Recipe__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef7"
+            },
+            "Ingridient_amount__c": 100,
+            "Name": "Soda water",
+            "Unit_of_measurement__c": "Milliliter",
+            "Recipe__c": "@Recipe__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef8"
+            },
+            "External_ingridient__c": "White sugar",
+            "Ingridient_amount__c": 2,
+            "Name": "2 TS White sugar",
+            "Unit_of_measurement__c": "Teaspoon",
+            "Recipe__c": "@Recipe__cRef2"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef9"
+            },
+            "External_ingridient__c": "1",
+            "Ingridient_amount__c": 1,
+            "Name": "1 tsp pumpkin spice pie",
+            "Unit_of_measurement__c": "Teaspoon",
+            "Recipe__c": "@Recipe__cRef3"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef10"
+            },
+            "External_ingridient__c": "Apple cider",
+            "Ingridient_amount__c": 75,
+            "Name": "75 ml apple cider",
+            "Unit_of_measurement__c": "Milliliter",
+            "Recipe__c": "@Recipe__cRef3"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef11"
+            },
+            "Ingridient_amount__c": 25,
+            "Name": "25 ml BACARDÍ Carta Oro rum",
+            "Unit_of_measurement__c": "Milliliter",
+            "Recipe__c": "@Recipe__cRef3"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef12"
+            },
+            "External_ingridient__c": "Lemonade (sweetened)",
+            "Ingridient_amount__c": 50,
+            "Name": "50 ml lemonade (sweetened)",
+            "Unit_of_measurement__c": "Milliliter",
+            "Recipe__c": "@Recipe__cRef3"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef13"
+            },
+            "External_ingridient__c": "Apple",
+            "Ingridient_amount__c": 1,
+            "Name": "1 apple cut into slices (garnish)",
+            "Unit_of_measurement__c": "Pieces",
+            "Recipe__c": "@Recipe__cRef3"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef14"
+            },
+            "Ingridient_amount__c": 25,
+            "Name": "25 ml BACARDÍ Carta Blanca rum",
+            "Unit_of_measurement__c": "Milliliter",
+            "Recipe__c": "@Recipe__cRef3"
+        },
+        {
+            "attributes": {
+                "type": "Recipe_amount__c",
+                "referenceId": "Recipe_amount__cRef15"
+            },
+            "External_ingridient__c": "Cinnamon (garnish)",
+            "Ingridient_amount__c": 4,
+            "Name": "4 sticks of cinnamon (garnish)",
+            "Unit_of_measurement__c": "Pieces",
+            "Recipe__c": "@Recipe__cRef3"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+<template>
+    <ul class="slds-has-dividers_top-space">
+            <template if:true={bottlelist}>
+            <template for:each={bottlelist} for:item="bottle">
+                    <li class="slds-item" key={bottle.Id}>
+                            <div class="slds-grid">
+                                    <div class="slds-col slds-size_4-of-5">
+                                      <span>
+                                            {bottle.description}: 
+                                      </span>
+                                    </div>
+                                    <div class="slds-col slds-size_1-of-5">
+                                      <span>
+                                            {bottle.numbottles}
+                                      </span>
+                                    </div>
+                            </div>
+                    </li>
+                </template>
+            </template>
+    </ul>
+</template>

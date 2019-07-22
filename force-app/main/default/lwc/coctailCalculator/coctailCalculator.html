@@ -1,0 +1,51 @@
+<template>
+    <lightning-card icon-name="standard:product_required">
+        <template if:true={recipes.data}>
+            <span slot="title">Recipe Calculator</span>
+            <ul class="slds-has-dividers_top-space">
+                    <template for:each={recipes.data} for:item="product">
+                        <div class="slds-grid" key={product.Id}>
+                            <div class="slds-col slds-size_1-of-5 ccol">
+                              <span>
+                                  <img src={product.Recipe_URL__c} class="product slds-align_absolute-center" alt="Recipe picture">
+                              </span>
+                            </div>
+                            <div class="slds-col slds-size_4-of-5">
+                                   <li class="slds-item">
+                                          <div class="slds-form-element">
+                                              <label class="slds-form-element__label" for={product.Id}>
+                                                  <span class="slds-slider-label">
+                                                  <span class="slds-slider-label__label">{product.Name}</span>
+                                                  </span>
+                                          </label>
+                                          <lightning-slider
+                                             label="Amount"
+                                             step="10"
+                                             value="50"
+                                             max="100"
+                                             variant="label-hidden">
+                                          </lightning-slider>
+                                          </div>
+                                     </li>
+                            </div>
+                          </div>
+                    </template>
+            </ul>
+            <div class="slds-align_absolute-center" style="height: 3rem;">
+                <lightning-button
+                    label="Calculate"
+                    variant="brand"
+                    onclick={handleSave}
+                    class="slds-p-vertical_small"
+                ></lightning-button>
+            </div>
+            <div>
+                    <c-ingredients-list bottlelist={bottlelist}></c-ingredients-list>
+            </div>
+
+        </template>
+        <template if:false={recipes.data}>
+            <c-placeholder message="Can't retrieve the data"></c-placeholder>
+        </template>      
+    </lightning-card>
+</template>

@@ -1,0 +1,33 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Recipe__c",
+                "referenceId": "Recipe__cRef1"
+            },
+            "Name": "Bombay Sapphire Martini Coctail",
+            "Recipe_description__c": "Delicious gin and martini coctail",
+            "Recipe_URL__c": "https://s3.eu-central-1.amazonaws.com/sfdcdemofiles/cuatro-el-presidente_sml_580x820.png",
+            "Coctail_type__c": "Martini"
+        },
+        {
+            "attributes": {
+                "type": "Recipe__c",
+                "referenceId": "Recipe__cRef2"
+            },
+            "Name": "Mojito",
+            "Recipe_description__c": "BACARDÍ MOJITO",
+            "Recipe_URL__c": "https://s3.eu-central-1.amazonaws.com/sfdcdemofiles/bacardi-dragon-berry-lemon-and-lime_sml_580x820.png",
+            "Coctail_type__c": "Classic"
+        },
+        {
+            "attributes": {
+                "type": "Recipe__c",
+                "referenceId": "Recipe__cRef3"
+            },
+            "Name": "Friendsgiving Punch",
+            "Recipe_URL__c": "https://s3.eu-central-1.amazonaws.com/sfdcdemofiles/bacardi-friendsgiving-rum-punch_sml_580x820.png",
+            "Coctail_type__c": "Classic"
+        }
+    ]
+}

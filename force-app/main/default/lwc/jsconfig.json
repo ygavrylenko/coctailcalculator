@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/coctailCalculator": [
+                "coctailCalculator/coctailCalculator.js"
+            ],
+            "c/ingredientsList": [
+                "ingredientsList/ingredientsList.js"
+            ],
+            "c/placeholder": [
+                "placeholder/placeholder.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}

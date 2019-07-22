@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_of_measurement__c</fullName>
+    <externalId>false</externalId>
+    <label>Unit of measurement</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Units_of_measurements_picklist</valueSetName>
+    </valueSet>
+</CustomField>

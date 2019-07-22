@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Gram</fullName>
+        <default>false</default>
+        <label>Gram</label>
+    </customValue>
+    <customValue>
+        <fullName>Liter</fullName>
+        <default>false</default>
+        <label>Liter</label>
+    </customValue>
+    <customValue>
+        <fullName>Milliliter</fullName>
+        <default>false</default>
+        <label>Milliliter</label>
+    </customValue>
+    <customValue>
+        <fullName>Pieces</fullName>
+        <default>false</default>
+        <label>Pieces</label>
+    </customValue>
+    <customValue>
+        <fullName>Centiliter</fullName>
+        <default>false</default>
+        <label>Centiliter</label>
+    </customValue>
+    <customValue>
+        <fullName>Teaspoon</fullName>
+        <default>false</default>
+        <label>Teaspoon</label>
+    </customValue>
+    <masterLabel>Units of measurements picklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
